@@ -111,6 +111,32 @@ The report is intentionally designed around a 3-stage business narrative: **Over
 *![Insights & Recommendations](<screenshots/Insights and Recommenedations.png>)*
 
 ---
+## 🗂️ Project Structure
+
+IBM-HR-Employee-Attrition-Analytics/
+│
+├── WA_Fn-UseC_-HR-Employee-Attrition.csv  <-- Raw Dataset
+│
+├── powerbi/
+│   ├── .gitkeep
+│   └── ibm_hr_project.pbix
+│
+├── screenshots/
+│   ├── .gitkeep
+│   ├── Attrition Drivers.png
+│   ├── Executive overview.png
+│   └── Insights and Recommenedations.png
+│
+├── sql/
+│   ├── .gitkeep
+│   ├── Create_View.sql
+│   ├── Data_Analysis.sql
+│   └── Data_cleaning.sql
+│
+└── README.md   
+                                                                                        <-- Project Documentation
+                                                                                        
+---
 
 ## 📈 Business Value Delivered
 This project acts as an essential corporate decision-support tool rather than a basic charting exercise. It empowers business leaders to:
@@ -119,10 +145,10 @@ This project acts as an essential corporate decision-support tool rather than a 
 * Protect organization stability by drastically **lowering recruitment and onboarding costs** through optimized employee retention.
 
 ---
-
 ## 🚀 How to Run the Project
-1. **Database Setup & SQL Verification:** Navigate to the [sql/](sql/) directory in this repository. Ingest the raw data from the [dataset/](dataset/) folder into your local MySQL instance, and execute `data_cleaning.sql` and `analysis_queries.sql` to run metrics and generate the prepared data views.
-2. **Dashboard Initialization:** Navigate to the [powerbi/](powerbi/) directory in this repository and download the completed Power BI report file (`.pbix`). Open it in Power BI Desktop, click **Refresh** to sync with your local SQL Server, and interactively explore the dashboard tracking HR corporate metrics.
+1. **Database Setup & SQL Verification:** Navigate to the [sql/](sql/) directory in this repository. Ingest the raw data from the [dataset/](dataset/) folder into your local MySQL instance, and execute `Data_cleaning.sql`, `Create_View.sql`, and `Data_Analysis.sql` to run metrics and generate the prepared data views.
+2. **Dashboard Initialization:** Navigate to the [powerbi/](powerbi/) directory in this repository and download the completed Power BI report file (`ibm_hr_project.pbix`). Open it in Power BI Desktop, click **Refresh** to sync with your local SQL Server, and interactively explore the dashboard tracking HR corporate metrics.
+
 
 
 *Developed by Your Name | [LinkedIn Profile](https://www.linkedin.com/in/shahana-sherin-tp-30521b372?utm_source=share_via&utm_content=profile&utm_medium=member_ios)*
