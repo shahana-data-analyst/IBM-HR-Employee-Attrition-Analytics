@@ -80,7 +80,7 @@ The report is intentionally designed around a 3-stage business narrative: **Over
 * **Key Visuals:** Attrition broken down by Job Role, Department, Age Group, and Gender.
 * **Analytical Insight:** Turnover is heavily concentrated within the **Sales (20.63%)** and **HR (19.05%)** departments. In terms of volume, **Laboratory Technicians (62 cases)** and **Sales Executives (57 cases)** represent the highest risk roles. Attrition also drastically peaks during the **Early Career** age stage.
 
-*(Add your page1_executive_overview.png here)*
+*(![Executive Overview](screenshots/Executive overview.png))*
 
 ---
 
@@ -93,7 +93,7 @@ The report is intentionally designed around a 3-stage business narrative: **Over
   * **Financial Disparity:** Attrition scales with income; the **Low Salary Slab shows a high 21.76% attrition rate**, whereas the Very High slab drops to a stable **3.76%**.
   * **Satisfaction Correlation:** Employees at Job Satisfaction Level 1 suffer from a **22.84% attrition rate**, nearly double the rate of Level 4 employees (11.33%).
 
-*(Add your page2_attrition_drivers.png here)*
+*(![Attrition Drivers](screenshots/Attrition Drivers.png))*
 
 ---
 
@@ -108,7 +108,7 @@ The report is intentionally designed around a 3-stage business narrative: **Over
 | **Sales & HR Friction** | Sales (20.63%) and HR (19.5%) drive departmental attrition. | Conduct department-specific stay interviews to investigate workload, leadership, and unique culture challenges. |
 | **Job Satisfaction** | Level 1 satisfaction drives a high 22.84% exit rate. | Gather regular pulse feedback via anonymous surveys to actively **address top workplace dissatisfaction drivers**. |
 
-*(Add your page3_insights_recommendations.png here)*
+*(![Insights & Recommendations](screenshots/Insights and Recommenedations.png))*
 
 ---
 
@@ -121,10 +121,10 @@ This project acts as an essential corporate decision-support tool rather than a 
 ---
 
 ## 🚀 How to Run the Project
-1. **Database Setup:** Open the `sql/` folder, run the cleaning and analysis scripts in your MySQL instance to prepare the underlying schema views.
-2. **Dashboard Initialization:** Open `powerbi/IBM_HR_Attrition_Analytics.pbix` in Power BI Desktop, click **Refresh** to sync with your database, and use the interactive slicers to filter across departments, gender, education, and marital status.
+## 🚀 How to Run the Project
+1. **Database Setup & SQL Verification:** Navigate to the [sql/](sql/) directory in this repository. Execute the `data_cleaning.sql` and `analysis_queries.sql` files within your local MySQL instance to ingest data, run validations, and generate the underlying schema views.
+2. **Dashboard Initialization:** Download the `IBM_HR_Attrition_Analytics.pbix` file located inside the [powerbi/](powerbi/) directory. Open it in Power BI Desktop, click **Refresh** to sync with your local SQL Server instance, and interactively explore the dashboard tracking corporate metrics.
 
----
 *Developed by Your Name | [LinkedIn Profile](https://www.linkedin.com/in/shahana-sherin-tp-30521b372?utm_source=share_via&utm_content=profile&utm_medium=member_ios)*
 
 
