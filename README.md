@@ -121,9 +121,9 @@ This project acts as an essential corporate decision-support tool rather than a 
 ---
 
 ## 🚀 How to Run the Project
-## 🚀 How to Run the Project
-1. **Database Setup & SQL Verification:** Navigate to the [sql/](sql/) directory in this repository. Execute the `data_cleaning.sql` and `analysis_queries.sql` files within your local MySQL instance to ingest data, run validations, and generate the underlying schema views.
-2. **Dashboard Initialization:** Download the `IBM_HR_Attrition_Analytics.pbix` file located inside the [powerbi/](powerbi/) directory. Open it in Power BI Desktop, click **Refresh** to sync with your local SQL Server instance, and interactively explore the dashboard tracking corporate metrics.
+1. **Database Setup & SQL Verification:** Navigate to the [sql/](sql/) directory in this repository. Ingest the raw data from the [dataset/](dataset/) folder into your local MySQL instance, and execute `data_cleaning.sql` and `analysis_queries.sql` to run metrics and generate the prepared data views.
+2. **Dashboard Initialization:** Navigate to the [powerbi/](powerbi/) directory in this repository and download the completed Power BI report file (`.pbix`). Open it in Power BI Desktop, click **Refresh** to sync with your local SQL Server, and interactively explore the dashboard tracking HR corporate metrics.
+
 
 *Developed by Your Name | [LinkedIn Profile](https://www.linkedin.com/in/shahana-sherin-tp-30521b372?utm_source=share_via&utm_content=profile&utm_medium=member_ios)*
 
